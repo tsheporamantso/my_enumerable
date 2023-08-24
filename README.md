@@ -51,7 +51,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **MY Enumerable**
+- implement a subset of the functionality of Enumerable.
+- implement a method #each that yields successive members of @list and uses the MyEnumerable module.
+- Create a module MyEnumerable that implements the following methods 
+  - #all?
+  - #any?
+  - #filter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
