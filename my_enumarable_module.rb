@@ -11,7 +11,7 @@ module MyEnumerable
 
   def filter
     result = []
-    each { |item| return << item if yield item }
+    each { |item| result << item if yield item }
     result
   end
 end
