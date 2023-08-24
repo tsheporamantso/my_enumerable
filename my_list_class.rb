@@ -9,7 +9,7 @@ class MyList
 
   def each(&block)
     return enum_for(:each) unless block_given?
-
+    
     @list.each(&block)
   end
 end
